@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/awx-setup-cli-action@v1
+      - uses: tioborto/awx-setup-cli-action@v1
 
       - run: awx --version
         shell: bash

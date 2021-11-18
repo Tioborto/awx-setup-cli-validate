@@ -1,9 +1,11 @@
+name: AWX CLI specific version
+
 on: [push]
 
 jobs:
   setup_awx_cli_job:
     runs-on: ubuntu-latest
-    name: Validate AWX CLI installation
+    name: Install AWX CLI installation
     steps:
       - uses: actions/checkout@v2
 

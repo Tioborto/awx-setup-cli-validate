@@ -1,3 +1,5 @@
+name: AWX CLI latest version
+
 on: [push]
 
 jobs:
